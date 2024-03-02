@@ -1,0 +1,406 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+:root{
+    --color-green: rgb(106, 255, 80);
+    --color-blue: rgb(25, 25, 119);
+    --color-lightblue: rgb(218, 218, 255);
+}
+
+*{
+    margin: 0px;
+    font-family: "Pretendard Variable";
+    box-sizing: border-box;
+    border-style: none;
+    line-height: 150%;
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    height: 64px;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    color: var(--color-blue);
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 5px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+    height: 60px;
+    padding: 0 28px;
+}
+
+.nav-menu{
+    display: flex;
+    padding: 0 40px;
+    font-weight: 700;
+}
+
+.nav-menu div{
+    margin: 0 14px;
+}
+
+.nav-menu div:hover{
+    cursor: pointer;
+}
+
+.main-background{
+    background-image: url("https://cdn.wccftech.com/wp-content/uploads/2023/01/KartRider-Drift-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    filter: brightness(0.3);
+}
+
+.main-container{
+    position: absolute;
+    top: 0;
+    display: block;
+    text-align: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 450px;
+}
+
+.main-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+    color: #ddd;
+}
+
+.main-button{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-blue);
+    transition: transform 0.2s ease;
+}
+
+.main-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.caption-container{
+    position: relative;
+    width: 80%;
+    min-width: 600px;
+    max-width: 1200px;
+    height: 200px;
+    background-color: var(--color-blue);
+    margin: auto;
+    top: -100px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.caption-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.caption-text{
+    margin-top: 20px;
+    line-height: 150%;
+    color: var(--color-lightblue);
+}
+
+.question, .description{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 750;
+    color: var(--color-blue);
+    margin: 300px 0 40px 0; 
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 100px 0;
+}
+
+.good-container{
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: var(--color-blue);
+    margin: 0px 0 150px 0;
+    color: var(--color-lightblue);
+}
+
+.good-items{
+    width: 300px;
+    padding: 20px 0;
+}
+
+.good-items h4{
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+.good-icon{
+    font-size: 80px;
+    padding: 34px 30px 20px 30px;
+    background-color: white;
+    color: var(--color-blue);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.contact-area{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-container{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(30, 30, 90);
+    margin: 100px 50px;
+    padding: 60px;
+    font-size: 20px;
+    color: var(--color-lightblue);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container p{
+    margin-bottom: 5px;
+}
+
+#contact-title{
+    font-size: 34px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-inputs{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.contact-inputs input{
+    font-size: 20px;
+    background-color: rgb(241, 241, 255);
+    padding: 10px;
+}
+
+.contact-inputs input[type=email], textarea{
+    width: 100%;
+    height: 50px;
+    resize: none;
+    background-color: rgb(241, 241, 255);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#contact-names input{
+    width: 180px;
+    height: 50px;
+}
+
+#contact-names, #contact-send{
+    display: flex;
+    align-items: center;
+}
+
+#contact-send input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+}
+
+#contact-send input[type=submit]{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(106, 255, 80);
+    border-radius: 100px;
+    color: rgb(30, 30, 90);
+    transition: transform 0.1s ease;
+}
+
+#contact-send input[type=submit]:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.table-container table{
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 255);
+    overflow: hidden;
+    color: rgb(60, 60, 83);
+}
+
+.table-col{
+    border-bottom: 4px solid white;
+}
+
+thead{
+    background-color: var(--color-blue);
+    color: rgb(206, 206, 255);
+    font-weight: 600;
+}
+
+tbody{
+    font-size: 20px;
+}
+
+.table-title, .table-subtitle{
+    text-align: left;
+}
+
+.table-title{
+    vertical-align: bottom;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.table-subtitle{
+    vertical-align: top;
+    font-size: 16px;
+    color: rgb(137, 137, 153);
+}
+
+tbody .table-col:last-child{
+    border-bottom: none;
+}
+
+.table-container td{
+    width: 200px;
+    height: 50px;
+}
+
+.table-container td:nth-child(1){
+    width: 100px;
+}
+
+.table-image{
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.table-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.kart-container{
+    padding: 100px;
+    background-color: rgb(243, 243, 254);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 0 200px 0;
+}
+
+.kart-button{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.15s ease;
+}
+
+.kart-button img{
+    padding: 14px 30px;
+    position: relative;
+}
+
+.kart-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 2px solid rgb(243, 243, 254);
+    height: 80px;
+    bottom: 0px;
+    background-color: white;
+}
+
+.kart-name{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 30px;
+    height: 100%;
+    color: var(--color-blue);
+}
+
+.kart-level{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 30px;
+    color: rgb(255, 170, 0);
+}
+
+.kart-button-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -100px;
+    background-color: var(--color-blue);
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: var(--color-lightblue);
+    line-height: 150%;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.kart-button:hover .kart-button-overlay{
+    bottom: 0;
+}
+
+.kart-button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KartRider</title>
+    <link href="231225_Shopping_Style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-title">
+            <img src="https://i.namu.wiki/i/ErRZaSQkvDpBVIbYyv1X5O8aj-8pMa8jAhs0-BMTRiFNR1BdIBdHrspHdTeQA6YEiC_uBprsKi4uBGpT6JK9aQ.svg">
+        </div>
+        <div style="flex-grow: 1;"></div>
+        <div class="nav-menu">
+            <div>방문하기</div>
+            <div>후원하기</div>
+        </div>
+    </nav>
+    <div class="main-background">
+    </div>
+    <div class="main-container">
+        <div class="main-title">
+            세기의 역작 카트라이더
+        </div>
+        <div class="main-subtitle">
+            지금 바로 플레이 하세요
+        </div>
+        <button class="main-button">플레이하기</button>
+    </div>
+
+    <div class="caption-container">
+        <div class="caption-title">
+            대한민국 전통 게임
+        </div>
+        <div class="caption-text">
+            카트라이더는 10년 이상의 역사를 유저들과 함께 만들어나갔습니다.<br>
+            오랜 시간 다듬어나간 높은 완성도의 게임을 경험해보세요.
+        </div>
+    </div>
+    <div class="question">왜 카트라이더인가요?</div>
+    <div class="good-container">
+        <div class="good-items">
+            <i class="good-icon fa-solid fa-gauge-high"></i>
+            <h4>빠른 속도감</h4>
+            <p>다른 레이싱 게임에서는 느낄 수 없는 속도감</p>
+        </div>
+        <div class="good-items">
+            <i class="good-icon fa-solid fa-road"></i>
+            <h4>수많은 트랙</h4>
+            <p>누구든 도전 가능한 수많은 트랙</p>
+        </div>
+        <div class="good-items">
+            <i class="good-icon fa-solid fa-car"></i>
+            <h4>다양한 카트</h4>
+            <p>수집욕을 자극하는 독특한 카트바디</p>
+        </div>
+        <div class="good-items">
+            <i class="good-icon fa-solid fa-bolt"></i>
+            <h4>화려한 기술</h4>
+            <p>드리프트, 부스터를 이용한 화려한 레이싱</p>
+        </div>
+    </div>
+    <div class="question">마리오카트보다 나은 게 뭔가요?</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr class="table-col">
+                    <td colspan="2">게임</td>
+                    <td>출시년도</td>
+                    <td>가격</td>
+                    <td>평점</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="table-image"><img src="data:image/jpeg;base64,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"></td>
+                    <td class="table-title">카트라이더</td>
+                    <td rowspan="2">2004</td>
+                    <td rowspan="2">Free</td>
+                    <td rowspan="2">4.9</td>
+                </tr>
+                <tr class="table-col">
+                    <td class="table-subtitle">넥슨</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="table-image"><img src="https://assetsio.reedpopcdn.com/digitalfoundry-2017-mario-kart-8-deluxe-tech-analysis-1492685857061.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"></td>
+                    <td class="table-title">마리오카트</td>
+                    <td rowspan="2">1992</td>
+                    <td rowspan="2">50,000원</td>
+                    <td rowspan="2">4.2</td>
+                </tr>
+                <tr class="table-col">
+                    <td class="table-subtitle">닌텐도</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="description">카트라이더는 오랜시간 모아온 데이터로 만든 '유저경험'이 있습니다.</div>
+    <div class="question">재밌겠다! 어떤 카트가 있어요?</div>
+    <div class="kart-container">
+        <div class="kart-button">
+            <div class="kart-button-overlay">
+                <p>전설의 카트.<br>수많은 유저들이 이 카트를 얻기위해 노력했다.</p>
+            </div>
+            <img style="top: 10px;" src="https://i.namu.wiki/i/Wk_45Wd6CU_QbzG8tV3jpuO9O8MDy2_dEnCYQLCA8YlkoI9bd8Y2liY5gEuBftkFRr7RhqIjdcdFM49s65PFikveD_j7dwM6wqdxO7WLRVDUlj9AJNS4XkSWjCGxoZzUPmymvKWtIBa2RlTcd-y70A.webp">
+            <div class="kart-title">
+                <p class="kart-name">핑크 코튼</p><div style="flex-grow: 1;"></div><p class="kart-level">전설</p>
+            </div>
+        </div>
+        <div class="kart-button">
+            <div class="kart-button-overlay">
+                <p>전설의 카트.<br>수많은 유저들이 이 카트를 얻기위해 노력했다.</p>
+            </div>
+            <img style="top: 30px; transform: scale(1.2);" src="https://i.namu.wiki/i/8oeEgmBmBFeui6XXotKkvNq5nNDm_DbeLaSPx7PXf43Gu5tljGXzWxJNL1HjWx-uJlo59Q_xI8lkZeUusN3ujkuOZMR04qd0cz8rLgXfoNfwedJCRp4Y9eTPi4UyjhlpOrBiXtbqkr8XedgoJSS9aw.webp">
+            <div class="kart-title">
+                <p class="kart-name">파라곤</p><div style="flex-grow: 1;"></div><p class="kart-level">전설</p>
+            </div>
+        </div>
+        <div class="kart-button">
+            <div class="kart-button-overlay">
+                <p>전설의 카트.<br>수많은 유저들이 이 카트를 얻기위해 노력했다.</p>
+            </div>
+            <img src="https://i.namu.wiki/i/Po6XSFHvVCJYZJ7zRZf62Sjl1ps-OCt9t62S6sr3xPPUHpYVl2s5TQ3uDKjUaDXprrXW8bmLNaHOXC_c0r4tRCL35_FkkEB4ZRFPEL4FaBB7l9pxRAAh2AuOTzSlSbrrBJbXF_PtUKCS6FDTCmcaPQ.webp">
+            <div class="kart-title">
+                <p class="kart-name">슈퍼 코튼</p><div style="flex-grow: 1;"></div><p class="kart-level">전설</p>
+            </div>
+        </div>
+        <div class="kart-button">
+            <div class="kart-button-overlay">
+                <p>전설의 카트.<br>수많은 유저들이 이 카트를 얻기위해 노력했다.</p>
+            </div>
+            <img style="top: 20px;" src="https://i.namu.wiki/i/ULPYgcY4d6JEjhDw4RV_89sH5VIf3g2pSVU3cZ-wDb9Zw6N_vVj_wO9SUbF9ZqKteZFU2o3FpLZ5Ab13VaTFF_jvnXlnMkUExI9q4_C6YzjgMVzJ60aO29DOYcRo54jlXL5KZxoF6tRRxLoxwky14w.webp">
+            <div class="kart-title">
+                <p class="kart-name">블레이즈</p><div style="flex-grow: 1;"></div><p class="kart-level">전설</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-area">
+        <div class="contact-container">
+            <div id="contact-title">
+                사전신청하기
+            </div>
+            <div style="flex-grow: 1;"></div>
+            <div class="contact-inputs" id="contact-email">
+                <p>이메일</p>
+                <input type="email" id="email" placeholder="email@example.com">
+            </div>
+            <div class="contact-inputs" id="contact-names">
+                <div id="contact-first">
+                    <p>성</p>
+                    <input type="text" id="first-name">
+                </div>
+                <div style="flex-grow: 1;"></div>
+                <div id="contact-last">
+                    <p>이름</p>
+                    <input type="text" id="last-name">
+                </div>
+            </div>
+            <div class="contact-inputs" id="contact-message">
+                <p>신청사유</p>
+                <textarea id="message" style="height: 150px;"></textarea>
+            </div>
+            <div class="contact-inputs" id="contact-send">
+                <input type="checkbox" id="agree"><p style="margin-left: 10px;">이메일 수신 동의</p>
+                <div style="flex-grow: 1;"></div>
+                <input type="submit" id="submit" value="신청하기">
+            </div>
+        </div>
+        <div class="contact-text">
+            <div class="question" style="text-align: left;">당장 사전신청 해야겠어요!</div>
+            <div class="description" style="text-align: left; width: 100%; margin-top: 0;">카트라이더는 현재 사전예약 신청을 받고 있으며,<br>
+            곧 정식출시되어 플레이 가능합니다.<br>
+            사전예약을 통해 다양한 혜택을 받아보세요.</div>
+        </div>
+    </div>
+</body>
+</html>
